@@ -218,3 +218,51 @@ header{
     }
 }
 
+/*hero form*/
+
+#heroForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #03337a;
+}
+
+#formWrapper{
+    border: 3px solid #03337a;
+    padding: 1.5rem;
+    border-radius: 10px;
+    background-color: #e4ecf4;
+    max-width: 700px;
+}
+
+.formTitle, .preFormtext{
+    text-align: center;
+}
+
+.formTitle{
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.preFormtext{
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+fieldset{
+    display: flex;
+    flex-direction: column;
+}
+
+form input, #referrer, #extra-info{
+    margin-bottom: 0.8rem;
+    margin-top: 0.3rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 0px;
+}
+

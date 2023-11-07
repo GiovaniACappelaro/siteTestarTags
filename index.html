@@ -42,5 +42,47 @@
         </div>
 
     </header>
+
+    <section id="heroForm">
+        <div id="formWrapper">
+            <h3 class="formTitle">Make Contact (We don't bite)</h3>
+            <p class="preFormtext">Fill the form bellow with your personal data</p>
+
+            <form action="" id="mainForm">
+                <fieldset>
+                    <label for="full-name">Enter your full name:</label>
+                    <input type="text" name="fullName" id="full-name">
+                    <label for="e-mail">Enter your e-mail:</label>
+                    <input type="email" name="eMail" id="e-mail">
+                    <label for="phone-number">Enter your phone number: </label>
+                    <input type="number" name="phoneNumber" id="phone-number">
+                </fieldset>
+
+                <fieldset>
+                    <label for="referrer">How did you hear about us?
+                        <select name="referrer" id="referrer">
+                            <option value="">(select one)</option>
+                            <option value="1">Social media</option>
+                            <option value="2">Our blog</option>
+                            <option value="3">Our website</option>
+                            <option value="4">Other</option>
+                        </select>
+                    </label>
+                </fieldset>
+
+                <fieldset>
+                    <label for="extra-info">Leave a message:</label>
+                    <textarea name="extraInfo" id="extra-info" cols="30" rows="3" placeholder="I study progamming and ..."></textarea>
+                    <label for="agree-terms"><input type="checkbox" name="agreeTerms" id="agree-terms" required> I agree with the <a href=""><i>terms and conditions</i></a></label>
+                </fieldset>
+
+                <div class="submitArea">
+                    <input type="submit" value="Submit" name="submit">
+                </div>  
+            </form>
+
+        </div>
+    </section>
+
 </body>
 </html>
