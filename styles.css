@@ -234,7 +234,7 @@ header{
     padding: 1.5rem;
     border-radius: 10px;
     background-color: #e4ecf4;
-    max-width: 700px;
+    max-width: 900px;
 }
 
 .formTitle, .preFormtext{
@@ -266,3 +266,29 @@ form input, #referrer, #extra-info{
     border: 0px;
 }
 
+#referrer:hover{
+    cursor: pointer;
+}
+
+.terms{
+    text-decoration: none;
+    color: #03337a;
+}
+
+.terms:hover{
+    text-decoration: underline;
+
+}
+
+.submitArea{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input[type="submit"]{
+    background-color: #2571B7;
+    color: #e4ecf4;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
